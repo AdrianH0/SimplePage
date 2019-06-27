@@ -1,0 +1,40 @@
+body{
+    background-color: #303030;
+    color: #FFFFFF;
+    font-family: 'Mali', cursive;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    width: 80%;
+    border: solid 1px red;
+}
+
+.rectangle{
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    border: solid 1px blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.square{
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    border: solid 1px green;
+}
+
+#footer{
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+}
+#logo{
+
+}
