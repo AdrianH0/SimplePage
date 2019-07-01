@@ -49,33 +49,101 @@ body{
 
 .square1{
     width: 50%;
-    margin: auto;
-    padding: 10px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     border: solid 1px green;
 }
 
 .square2{
     width: 50%;
-    margin: auto;
-    padding: 10px;
+    margin-top: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     border: solid 1px green;
 }
 
-.tile1
-{
+.tile1{
     margin: 5px;
-    padding: 10px;
-    border: solid 1px red;
-    width: 100%;
+    width: 46%;
     height: 142px;
+    display: flex;
+    flex-grow: 1;
+    background-color: #3095d3;
+}
+
+.tile2{
+    margin: 5px;
+    width: 46%;
+    height: 142px;
+    display: flex;
+    flex-grow: 1;
+    background-color: #666666;
+}
+
+.tile3{
+    margin: 5px;
+    width: 46%;
+    height: 142px;
+    display: flex;
+    flex-grow: 1;
+    background-color: #93c748;
+}
+
+.tile4{
+    margin: 5px;
+    width: 97%;
+    height: 142px;
+    display: flex;
+    background-color: #ee5a32;
+    flex-grow: 1;
+}
+
+.tile5{
+    margin: 5px;
+    width: 97%;
+    height: 294px;
+    display: flex;
+    background-color: #666666;
+    flex-grow: 1;
+}
+
+.tile6{
+    margin: 5px;
+    width: 12.5%;
+    height: 142px;
+    display: flex;
+    background-color: #ee5a32;
+    flex-grow: 1;
+}
+
+.tile7{
+    margin: 5px;
+    width: 12.5%;
+    height: 142px;
+    display: flex;
+    background-color: #ee5a32;
+    flex-grow: 1;
+}
+
+.tile8{
+    margin: 5px;
+    width: 12.5%;
+    height: 142px;
+    display: flex;
+    background-color: #ee5a32;
+    flex-grow: 1;
+}
+
+.tile9{
+    margin: 5px;
+    width: 12.5%;
+    height: 142px;
+    display: flex;
+    background-color: #ee5a32;
+    flex-grow: 1;
 }
 
 #footer{
