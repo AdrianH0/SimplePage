@@ -1,4 +1,5 @@
 body{
+    margin-top: 60px;
     background-color: #303030;
     color: #FFFFFF;
     font-family: 'Mali', cursive;
@@ -9,7 +10,7 @@ body{
 }
 
 #container{
-    width: 80%;
+    width: 80vw;
     border: solid 1px red;
     display: flex;
     flex-direction: column;
@@ -57,6 +58,7 @@ body{
 }
 
 .square2{
+    height: 100%;
     width: 50%;
     margin-top: 10px;
     display: flex;
@@ -110,46 +112,37 @@ body{
     flex-grow: 1;
 }
 
-.tile6{
+
+.fb{
     margin: 5px;
     width: 12.5%;
     height: 142px;
     display: flex;
-    background-color: #ee5a32;
+    background-color: #4668b3;
     flex-grow: 1;
 }
 
-.tile7{
+.linkIn{
     margin: 5px;
     width: 12.5%;
     height: 142px;
     display: flex;
-    background-color: #ee5a32;
+    background-color: #4875B4;
     flex-grow: 1;
 }
 
-.tile8{
+.email{
     margin: 5px;
-    width: 12.5%;
+    width: 25%;
     height: 142px;
     display: flex;
-    background-color: #ee5a32;
-    flex-grow: 1;
-}
-
-.tile9{
-    margin: 5px;
-    width: 12.5%;
-    height: 142px;
-    display: flex;
-    background-color: #ee5a32;
+    background-color: #d95333;
     flex-grow: 1;
 }
 
 #footer{
     width: 95%;
-    margin: auto;
-    padding: 10px;
+    margin: 20px;
 }
 
 #logo{
