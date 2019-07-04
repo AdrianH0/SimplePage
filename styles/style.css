@@ -9,6 +9,11 @@ body{
     justify-content: center;
 }
 
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 #container{
     width: 80vw;
     border: solid 1px red;
@@ -67,6 +72,11 @@ body{
     border: solid 1px green;
 }
 
+.square a {
+    margin: auto;
+    font-size: 76px;
+}
+
 .tile1{
     margin: 5px;
     width: 46%;
@@ -101,6 +111,9 @@ body{
     display: flex;
     background-color: #ee5a32;
     flex-grow: 1;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
 }
 
 .tile5{
