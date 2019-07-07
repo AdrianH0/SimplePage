@@ -16,7 +16,6 @@ a{
 
 #container{
     width: 80vw;
-    border: solid 1px red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +23,6 @@ a{
 
 .rectangle{
     width: 95%;
-    border: solid 1px blue;
     display: flex;
     flex-direction: row;
 }
@@ -34,7 +32,6 @@ a{
     font-size: 50px;
     width: 60%;
     padding: 10px;
-    border: solid 1px green;
 }
 
 #clock{
@@ -43,7 +40,6 @@ a{
     width: 40%;
     padding: 10px;
     text-align: right;
-    border: solid 1px green;
 }
 
 .square{
@@ -59,7 +55,6 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: solid 1px green;
 }
 
 .square2{
@@ -69,11 +64,9 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: solid 1px green;
 }
 
 .square a {
-    margin: auto;
     font-size: 76px;
 }
 
@@ -82,9 +75,17 @@ a{
     width: 46%;
     height: 142px;
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
     background-color: #3095d3;
+    justify-content: center;
+    align-items: center;
 }
+
+.tile1:hover{
+    background-color: #2084c2;
+}
+
 
 .tile2{
     margin: 5px;
@@ -93,6 +94,13 @@ a{
     display: flex;
     flex-grow: 1;
     background-color: #666666;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile2:hover{
+    background-color: #555555;
 }
 
 .tile3{
@@ -102,6 +110,13 @@ a{
     display: flex;
     flex-grow: 1;
     background-color: #93c748;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile3:hover{
+    background-color: #82b627;
 }
 
 .tile4{
@@ -114,15 +129,21 @@ a{
     font-size: 25px;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .tile5{
     margin: 5px;
+    padding: 10px;
     width: 97%;
-    height: 294px;
+    height: 274px;
     display: flex;
     background-color: #666666;
     flex-grow: 1;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    flex: 1 100%;
 }
 
 .fb{
@@ -132,6 +153,12 @@ a{
     display: flex;
     background-color: #4668b3;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb:hover{
+    background-color: #3557a2;
 }
 
 .linkIn{
@@ -141,6 +168,12 @@ a{
     display: flex;
     background-color: #4875B4;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkIn:hover{
+    background-color: #3764A3;
 }
 
 .email{
@@ -148,8 +181,14 @@ a{
     width: 12.5%;
     height: 142px;
     display: flex;
-    background-color: #d95333;
+    background-color: #1da1f2;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.email:hover{
+    background-color: #0ca0e1;
 }
 
 .git{
@@ -157,8 +196,14 @@ a{
     width: 12.5%;
     height: 142px;
     display: flex;
-    background-color: #333;
+    background-color: #333333;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.git:hover{
+    background-color: #222222;
 }
 
 #logo{
