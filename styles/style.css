@@ -40,6 +40,7 @@ a{
     width: 40%;
     padding: 10px;
     text-align: right;
+    overflow: auto;
 }
 
 .square{
@@ -144,6 +145,7 @@ a{
     text-align: justify;
     align-items: center;
     flex: 1 100%;
+    overflow: auto;
 }
 
 .fb{
